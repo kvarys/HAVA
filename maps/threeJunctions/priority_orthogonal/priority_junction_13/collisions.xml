@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-13 14:03:44 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="maps/threeJunctions/single_junction.net.xml"/>
+        <route-files value="maps/threeJunctions/single_junction.rou.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="maps/threeJunctions/collisions.xml"/>
+    </output>
+
+    <fcd_device>
+        <device.fcd.period value="100"/>
+    </fcd_device>
+
+    <traci_server>
+        <remote-port value="47817"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="maps/threeJunctions/gui-settings.cfg"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

@@ -1,0 +1,77 @@
+<!-- https://sumo.dlr.de/docs/Definition_of_Vehicles,_Vehicle_Types,_and_Routes.html#car-following_models -->
+<!-- 
+AVAILABLE EDGES:
+fromCenterToEast
+fromCenterToNorth
+fromCenterToSouth
+fromCenterToWest
+toCenterFromEast
+toCenterFromNorth
+toCenterFromSouth
+toCenterFromWest
+-->
+<routes>
+<routeDistribution id="northToSouth">
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.7"/>
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.1"/>
+    <route id="E-to-W" edges="toCenterFromEast fromCenterToWest" probability="0.1"/>
+    <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="0.1"/>
+</routeDistribution>
+<routeDistribution id="westToEastNorthIsWaiting">
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.1"/>
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.9"/>
+    <!-- <route id="N-to-W" edges="toCenterFromNorth fromCenterToWest" probability="0.08"/> -->
+    <!-- <route id="N-to-E" edges="toCenterFromNorth fromCenterToEast" probability="0.08"/> -->
+    <!-- <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="0.08"/> -->
+    <!-- <route id="S-to-E" edges="toCenterFromSouth fromCenterToEast" probability="0.08"/> -->
+    <!-- <route id="S-to-W" edges="toCenterFromSouth fromCenterToWest" probability="0.08"/> -->
+    <!-- <route id="E-to-W" edges="toCenterFromEast fromCenterToWest" probability="0.08"/> -->
+    <!-- <route id="E-to-N" edges="toCenterFromEast fromCenterToNorth" probability="0.08"/> -->
+    <!-- <route id="E-to-S" edges="toCenterFromEast fromCenterToSouth" probability="0.08"/> -->
+    <!-- <route id="W-to-N" edges="toCenterFromWest fromCenterToNorth" probability="0.08"/> -->
+    <!-- <route id="W-to-S" edges="toCenterFromWest fromCenterToSouth" probability="0.08"/> -->
+</routeDistribution>
+<routeDistribution id="allDirectionsEqually">
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.25"/>
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.25"/>
+    <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="0.25"/>
+    <route id="E-to-W" edges="toCenterFromEast fromCenterToWest" probability="0.25"/>
+</routeDistribution>
+<routeDistribution id="SouthToNorthWestNorthWaiting">
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.1"/>
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.1"/>
+    <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="0.8"/>
+</routeDistribution>
+
+<routeDistribution id="NorthAndWestTEST">
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.5"/>
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.5"/>
+</routeDistribution>
+
+<routeDistribution id="EastToWestTEST">
+    <route id="E-to-W" edges="toCenterFromEast fromCenterToWest" probability="1"/>
+</routeDistribution>
+
+<routeDistribution id="SouthToNorthTEST">
+    <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="1"/>
+</routeDistribution>
+
+<routeDistribution id="NorthToSouthTEST">
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="1"/>
+</routeDistribution>
+
+<routeDistribution id="AllDirections">
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.1"/>
+    <route id="W-to-S" edges="toCenterFromWest fromCenterToSouth" probability="0.1"/>
+    <route id="E-to-W" edges="toCenterFromEast fromCenterToWest" probability="0.1"/>
+    <route id="E-to-S" edges="toCenterFromEast fromCenterToSouth" probability="0.1"/>
+    <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="0.1"/>
+    <route id="S-to-E" edges="toCenterFromSouth fromCenterToEast" probability="0.1"/>
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.2"/>
+    <route id="N-to-E" edges="toCenterFromNorth fromCenterToEast" probability="0.1"/>
+    <route id="N-to-W" edges="toCenterFromNorth fromCenterToWest" probability="0.1"/>
+</routeDistribution>
+
+<vType id="type1" accel="0.8" decel="4.5" sigma="0" length="5" maxSpeed="150"/>
+<flow id="1" color="1,1,0" route="AllDirections" begin="0" end="9000" number="2400" type="type1"></flow>
+</routes>

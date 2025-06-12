@@ -20,6 +20,9 @@ Enter the project:
 
 ```
 cd HAVA
+mkdir models
+mkdir results
+mkdir results/logs
 ```
 
 Set up the Python environment:

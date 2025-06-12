@@ -1,0 +1,48 @@
+<!-- https://sumo.dlr.de/docs/Definition_of_Vehicles,_Vehicle_Types,_and_Routes.html#car-following_models -->
+<!-- 
+AVAILABLE EDGES:
+fromCenterToEast
+fromCenterToNorth
+fromCenterToSouth
+fromCenterToWest
+toCenterFromEast
+toCenterFromNorth
+toCenterFromSouth
+toCenterFromWest
+-->
+<routes>
+<routeDistribution id="AllDirections">
+    <route id="W-to-E" edges="toCenterFromWest fromCenterToEast" probability="0.1"/>
+    <route id="W-to-S" edges="toCenterFromWest fromCenterToSouth" probability="0.1"/>
+    <route id="E-to-W" edges="toCenterFromEast fromCenterToWest" probability="0.1"/>
+    <route id="E-to-S" edges="toCenterFromEast fromCenterToSouth" probability="0.1"/>
+    <route id="S-to-N" edges="toCenterFromSouth fromCenterToNorth" probability="0.1"/>
+    <route id="S-to-E" edges="toCenterFromSouth fromCenterToEast" probability="0.1"/>
+    <route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth" probability="0.2"/>
+    <route id="N-to-E" edges="toCenterFromNorth fromCenterToEast" probability="0.1"/>
+    <route id="N-to-W" edges="toCenterFromNorth fromCenterToWest" probability="0.1"/>
+</routeDistribution>
+
+<!-- <vType id="myveh" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="0.9" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.0" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.1" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.2" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.3" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.4" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.5" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.6" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="1.7" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<vType id="myveh" accel="1.8" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/>
+<!-- <vType id="myveh" accel="1.9" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="2.0" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="2.1" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="2.2" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="2.3" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="2.4" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<!-- <vType id="myveh" accel="2.5" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/> -->
+<route id="E-to-S" edges="toCenterFromEast fromCenterToSouth"/>
+<route id="N-to-S" edges="toCenterFromNorth fromCenterToSouth"/>
+<route id="W-to-E" edges="toCenterFromWest fromCenterToEast"/>
+<flow id="1" color="1,1,0" route="AllDirections" begin="5" end="9000" number="2500" type="myveh"></flow>
+</routes>

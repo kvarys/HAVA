@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-18 10:50:50 by Eclipse SUMO netedit Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/code/results/backup4/left_before_right.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/code/results/backup4/left_before_right.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="100.00,100.00" convBoundary="0.00,0.00,200.00,200.00" origBoundary="-100.00,-100.00,100.00,100.00" projParameter="!"/>
+
+    <edge id=":centerNode_0" function="internal">
+        <lane id=":centerNode_0_0" index="0" speed="6.51" length="9.03" shape="98.40,107.20 98.05,104.75 97.00,103.00 95.25,101.95 92.80,101.60"/>
+    </edge>
+    <edge id=":centerNode_1" function="internal">
+        <lane id=":centerNode_1_0" index="0" speed="13.89" length="14.40" shape="98.40,107.20 98.40,92.80"/>
+    </edge>
+    <edge id=":centerNode_2" function="internal">
+        <lane id=":centerNode_2_0" index="0" speed="8.00" length="14.19" shape="98.40,107.20 98.95,103.35 100.60,100.60 103.35,98.95 107.20,98.40"/>
+    </edge>
+    <edge id=":centerNode_3" function="internal">
+        <lane id=":centerNode_3_0" index="0" speed="3.65" length="4.67" shape="98.40,107.20 99.20,106.00 100.00,105.60 100.80,106.00 101.60,107.20"/>
+    </edge>
+    <edge id=":centerNode_4" function="internal">
+        <lane id=":centerNode_4_0" index="0" speed="6.51" length="9.03" shape="107.20,101.60 104.75,101.95 103.00,103.00 101.95,104.75 101.60,107.20"/>
+    </edge>
+    <edge id=":centerNode_5" function="internal">
+        <lane id=":centerNode_5_0" index="0" speed="13.89" length="14.40" shape="107.20,101.60 92.80,101.60"/>
+    </edge>
+    <edge id=":centerNode_6" function="internal">
+        <lane id=":centerNode_6_0" index="0" speed="8.00" length="14.19" shape="107.20,101.60 103.35,101.05 100.60,99.40 98.95,96.65 98.40,92.80"/>
+    </edge>
+    <edge id=":centerNode_7" function="internal">
+        <lane id=":centerNode_7_0" index="0" speed="3.65" length="4.67" shape="107.20,101.60 106.00,100.80 105.60,100.00 106.00,99.20 107.20,98.40"/>
+    </edge>
+    <edge id=":centerNode_8" function="internal">
+        <lane id=":centerNode_8_0" index="0" speed="6.51" length="9.03" shape="101.60,92.80 101.95,95.25 103.00,97.00 104.75,98.05 107.20,98.40"/>
+    </edge>
+    <edge id=":centerNode_9" function="internal">
+        <lane id=":centerNode_9_0" index="0" speed="13.89" length="14.40" shape="101.60,92.80 101.60,107.20"/>
+    </edge>
+    <edge id=":centerNode_10" function="internal">
+        <lane id=":centerNode_10_0" index="0" speed="8.00" length="14.19" shape="101.60,92.80 101.05,96.65 99.40,99.40 96.65,101.05 92.80,101.60"/>
+    </edge>
+    <edge id=":centerNode_11" function="internal">
+        <lane id=":centerNode_11_0" index="0" speed="3.65" length="4.67" shape="101.60,92.80 100.80,94.00 100.00,94.40 99.20,94.00 98.40,92.80"/>
+    </edge>
+    <edge id=":centerNode_12" function="internal">
+        <lane id=":centerNode_12_0" index="0" speed="6.51" length="9.03" shape="92.80,98.40 95.25,98.05 97.00,97.00 98.05,95.25 98.40,92.80"/>
+    </edge>
+    <edge id=":centerNode_13" function="internal">
+        <lane id=":centerNode_13_0" index="0" speed="13.89" length="14.40" shape="92.80,98.40 107.20,98.40"/>
+    </edge>
+    <edge id=":centerNode_14" function="internal">
+        <lane id=":centerNode_14_0" index="0" speed="8.00" length="14.19" shape="92.80,98.40 96.65,98.95 99.40,100.60 101.05,103.35 101.60,107.20"/>
+    </edge>
+    <edge id=":centerNode_15" function="internal">
+        <lane id=":centerNode_15_0" index="0" speed="3.65" length="4.67" shape="92.80,98.40 94.00,99.20 94.40,100.00 94.00,100.80 92.80,101.60"/>
+    </edge>
+    <edge id=":eastNode_0" function="internal">
+        <lane id=":eastNode_0_0" index="0" speed="3.65" length="4.67" shape="200.00,98.40 201.20,99.20 201.60,100.00 201.20,100.80 200.00,101.60"/>
+    </edge>
+    <edge id=":northNode_0" function="internal">
+        <lane id=":northNode_0_0" index="0" speed="3.65" length="4.67" shape="101.60,200.00 100.80,201.20 100.00,201.60 99.20,201.20 98.40,200.00"/>
+    </edge>
+    <edge id=":southNode_0" function="internal">
+        <lane id=":southNode_0_0" index="0" speed="3.65" length="4.67" shape="98.40,0.00 99.20,-1.20 100.00,-1.60 100.80,-1.20 101.60,0.00"/>
+    </edge>
+    <edge id=":westNode_0" function="internal">
+        <lane id=":westNode_0_0" index="0" speed="3.65" length="4.67" shape="0.00,101.60 -1.20,100.80 -1.60,100.00 -1.20,99.20 0.00,98.40"/>
+    </edge>
+
+    <edge id="fromCenterToEast" from="centerNode" to="eastNode" priority="-1">
+        <lane id="fromCenterToEast_0" index="0" speed="13.89" length="92.80" shape="107.20,98.40 200.00,98.40"/>
+    </edge>
+    <edge id="fromCenterToNorth" from="centerNode" to="northNode" priority="-1">
+        <lane id="fromCenterToNorth_0" index="0" speed="13.89" length="92.80" shape="101.60,107.20 101.60,200.00"/>
+    </edge>
+    <edge id="fromCenterToSouth" from="centerNode" to="southNode" priority="-1">
+        <lane id="fromCenterToSouth_0" index="0" speed="13.89" length="92.80" shape="98.40,92.80 98.40,0.00"/>
+    </edge>
+    <edge id="fromCenterToWest" from="centerNode" to="westNode" priority="-1">
+        <lane id="fromCenterToWest_0" index="0" speed="13.89" length="92.80" shape="92.80,101.60 0.00,101.60"/>
+    </edge>
+    <edge id="toCenterFromEast" from="eastNode" to="centerNode" priority="-1">
+        <lane id="toCenterFromEast_0" index="0" speed="13.89" length="92.80" shape="200.00,101.60 107.20,101.60"/>
+    </edge>
+    <edge id="toCenterFromNorth" from="northNode" to="centerNode" priority="-1">
+        <lane id="toCenterFromNorth_0" index="0" speed="13.89" length="92.80" shape="98.40,200.00 98.40,107.20"/>
+    </edge>
+    <edge id="toCenterFromSouth" from="southNode" to="centerNode" priority="-1">
+        <lane id="toCenterFromSouth_0" index="0" speed="13.89" length="92.80" shape="101.60,0.00 101.60,92.80"/>
+    </edge>
+    <edge id="toCenterFromWest" from="westNode" to="centerNode" priority="-1">
+        <lane id="toCenterFromWest_0" index="0" speed="13.89" length="92.80" shape="0.00,98.40 92.80,98.40"/>
+    </edge>
+
+    <junction id="centerNode" type="left_before_right" x="100.00" y="100.00" incLanes="toCenterFromNorth_0 toCenterFromEast_0 toCenterFromSouth_0 toCenterFromWest_0" intLanes=":centerNode_0_0 :centerNode_1_0 :centerNode_2_0 :centerNode_3_0 :centerNode_4_0 :centerNode_5_0 :centerNode_6_0 :centerNode_7_0 :centerNode_8_0 :centerNode_9_0 :centerNode_10_0 :centerNode_11_0 :centerNode_12_0 :centerNode_13_0 :centerNode_14_0 :centerNode_15_0" shape="96.80,107.20 103.20,107.20 103.64,104.98 104.20,104.20 104.98,103.64 105.98,103.31 107.20,103.20 107.20,96.80 104.98,96.36 104.20,95.80 103.64,95.02 103.31,94.02 103.20,92.80 96.80,92.80 96.36,95.02 95.80,95.80 95.02,96.36 94.02,96.69 92.80,96.80 92.80,103.20 95.02,103.64 95.80,104.20 96.36,104.98 96.69,105.98" rightOfWay="allwayStop">
+        <request index="0"  response="0000010000100000" foes="1000010000100000" cont="0"/>
+        <request index="1"  response="0000010001100000" foes="0111110001100000" cont="0"/>
+        <request index="2"  response="0000010001100000" foes="0110011111100000" cont="0"/>
+        <request index="3"  response="0100001000010000" foes="0100001000010000" cont="0"/>
+        <request index="4"  response="0100001000000000" foes="0100001000001000" cont="0"/>
+        <request index="5"  response="0100011000000000" foes="1100011000000111" cont="0"/>
+        <request index="6"  response="0100011000000000" foes="0111111000000110" cont="0"/>
+        <request index="7"  response="0010000100000100" foes="0010000100000100" cont="0"/>
+        <request index="8"  response="0010000000000100" foes="0010000010000100" cont="0"/>
+        <request index="9"  response="0110000000000100" foes="0110000001111100" cont="0"/>
+        <request index="10" response="0110000000000000" foes="1110000001100111" cont="0"/>
+        <request index="11" response="0001000001000010" foes="0001000001000010" cont="0"/>
+        <request index="12" response="0000000001000010" foes="0000100001000010" cont="0"/>
+        <request index="13" response="0000000001000110" foes="0000011111000110" cont="0"/>
+        <request index="14" response="0000000000000110" foes="0000011001111110" cont="0"/>
+        <request index="15" response="0000010000100001" foes="0000010000100001" cont="0"/>
+    </junction>
+    <junction id="eastNode" type="priority" x="200.00" y="100.00" incLanes="fromCenterToEast_0" intLanes=":eastNode_0_0" shape="200.00,100.00 200.00,96.80 200.00,100.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="northNode" type="priority" x="100.00" y="200.00" incLanes="fromCenterToNorth_0" intLanes=":northNode_0_0" shape="100.00,200.00 103.20,200.00 100.00,200.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="southNode" type="priority" x="100.00" y="0.00" incLanes="fromCenterToSouth_0" intLanes=":southNode_0_0" shape="100.00,0.00 96.80,0.00 100.00,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="westNode" type="priority" x="0.00" y="100.00" incLanes="fromCenterToWest_0" intLanes=":westNode_0_0" shape="0.00,100.00 0.00,103.20 0.00,100.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+
+    <connection from="fromCenterToEast" to="toCenterFromEast" fromLane="0" toLane="0" via=":eastNode_0_0" dir="t" state="M"/>
+    <connection from="fromCenterToNorth" to="toCenterFromNorth" fromLane="0" toLane="0" via=":northNode_0_0" dir="t" state="M"/>
+    <connection from="fromCenterToSouth" to="toCenterFromSouth" fromLane="0" toLane="0" via=":southNode_0_0" dir="t" state="M"/>
+    <connection from="fromCenterToWest" to="toCenterFromWest" fromLane="0" toLane="0" via=":westNode_0_0" dir="t" state="M"/>
+    <connection from="toCenterFromEast" to="fromCenterToNorth" fromLane="0" toLane="0" via=":centerNode_4_0" dir="r" state="="/>
+    <connection from="toCenterFromEast" to="fromCenterToWest" fromLane="0" toLane="0" via=":centerNode_5_0" dir="s" state="="/>
+    <connection from="toCenterFromEast" to="fromCenterToSouth" fromLane="0" toLane="0" via=":centerNode_6_0" dir="l" state="="/>
+    <connection from="toCenterFromEast" to="fromCenterToEast" fromLane="0" toLane="0" via=":centerNode_7_0" dir="t" state="="/>
+    <connection from="toCenterFromNorth" to="fromCenterToWest" fromLane="0" toLane="0" via=":centerNode_0_0" dir="r" state="="/>
+    <connection from="toCenterFromNorth" to="fromCenterToSouth" fromLane="0" toLane="0" via=":centerNode_1_0" dir="s" state="="/>
+    <connection from="toCenterFromNorth" to="fromCenterToEast" fromLane="0" toLane="0" via=":centerNode_2_0" dir="l" state="="/>
+    <connection from="toCenterFromNorth" to="fromCenterToNorth" fromLane="0" toLane="0" via=":centerNode_3_0" dir="t" state="="/>
+    <connection from="toCenterFromSouth" to="fromCenterToEast" fromLane="0" toLane="0" via=":centerNode_8_0" dir="r" state="="/>
+    <connection from="toCenterFromSouth" to="fromCenterToNorth" fromLane="0" toLane="0" via=":centerNode_9_0" dir="s" state="="/>
+    <connection from="toCenterFromSouth" to="fromCenterToWest" fromLane="0" toLane="0" via=":centerNode_10_0" dir="l" state="="/>
+    <connection from="toCenterFromSouth" to="fromCenterToSouth" fromLane="0" toLane="0" via=":centerNode_11_0" dir="t" state="="/>
+    <connection from="toCenterFromWest" to="fromCenterToSouth" fromLane="0" toLane="0" via=":centerNode_12_0" dir="r" state="="/>
+    <connection from="toCenterFromWest" to="fromCenterToEast" fromLane="0" toLane="0" via=":centerNode_13_0" dir="s" state="="/>
+    <connection from="toCenterFromWest" to="fromCenterToNorth" fromLane="0" toLane="0" via=":centerNode_14_0" dir="l" state="="/>
+    <connection from="toCenterFromWest" to="fromCenterToWest" fromLane="0" toLane="0" via=":centerNode_15_0" dir="t" state="="/>
+
+    <connection from=":centerNode_0" to="fromCenterToWest" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":centerNode_1" to="fromCenterToSouth" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":centerNode_2" to="fromCenterToEast" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":centerNode_3" to="fromCenterToNorth" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":centerNode_4" to="fromCenterToNorth" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":centerNode_5" to="fromCenterToWest" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":centerNode_6" to="fromCenterToSouth" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":centerNode_7" to="fromCenterToEast" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":centerNode_8" to="fromCenterToEast" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":centerNode_9" to="fromCenterToNorth" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":centerNode_10" to="fromCenterToWest" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":centerNode_11" to="fromCenterToSouth" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":centerNode_12" to="fromCenterToSouth" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":centerNode_13" to="fromCenterToEast" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":centerNode_14" to="fromCenterToNorth" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":centerNode_15" to="fromCenterToWest" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":eastNode_0" to="toCenterFromEast" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":northNode_0" to="toCenterFromNorth" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":southNode_0" to="toCenterFromSouth" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":westNode_0" to="toCenterFromWest" fromLane="0" toLane="0" dir="t" state="M"/>
+
+</net>
