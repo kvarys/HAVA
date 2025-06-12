@@ -48,6 +48,8 @@ or the social policy (no safety / legal norms) with
 python main.py hava 0.1 1.0 dd
 ```
 
+Where 0.1 is alpha (essentially the number of steps before the reputation recovers), 1.0 is tau (tolerance) and "mix" means both safety/legal norms (HAVA), "safe" means just safety/legal norms but no social norms and "dd" means data-driven social norms only but not safe/legal norms.
+
 Link to the paper:
 
 [ifaamas](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p2096.pdf)
